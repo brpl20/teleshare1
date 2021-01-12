@@ -1,0 +1,18 @@
+nifest_version": 2,
+  "name": "teleshare",
+  "version": "1.0",
+
+  "description": "share to telegram",
+
+   "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [""],
+      "js": ["teleshare.js"]
+    }
+  ]
+
+}
