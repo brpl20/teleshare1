@@ -49,7 +49,7 @@ console.log(sendCode(phone_user))
 // console.log(signIn('79621', '+5545984055504''79621'))
 
 // console.log(signIn({
-//   code: '79621',
+//   code: '26148',
 //   phone: '+5545984055504',
-//   phone_code_hash: '79621'
+//   phone_code_hash: '26148'
 // }));
