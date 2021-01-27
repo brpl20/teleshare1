@@ -43,10 +43,10 @@ function signIn({ code, phone, phone_code_hash }) {
 // console.log(getUser())
 
 // 303 -- phone trow e phone invalide quando usa .env
-console.log(sendCode(phone_user))
+// console.log(sendCode(phone_user))
 
 // phone number invalid -- devo estar cometendo algum erro ao chamar a função
-// console.log(signIn('79621', '+5545984055504''79621'))
+console.log(signIn('87681', process.env.PHONE_NUMBER, '87681'));
 
 // console.log(signIn({
 //   code: '26148',
