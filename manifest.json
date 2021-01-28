@@ -1,18 +1,32 @@
-nifest_version": 2,
-  "name": "teleshare",
+{
+
+  "manifest_version": 2,
+  "name": "TeleShare",
   "version": "1.0",
 
-  "description": "share to telegram",
+  "description": "Shares current page with your Telegram Bot",
 
-   "icons": {
-    "48": "icons/border-48.png"
-  },
+  "icons": {},
 
-  "content_scripts": [
+ "content_scripts": [
     {
-      "matches": [""],
-      "js": ["teleshare.js"]
+      "matches": ["<all_urls>"],
+      "js": ["webhooker1.js"]
     }
-  ]
+  ],
+
+  "commands": {
+  "toggle-feature": {
+    "suggested_key": {
+      "default": "Alt+Shift+Q",
+      "linux": "Ctrl+Shift+Q"
+    },
+    "description": "Send a 'toggle-feature' event"
+  }
+}
+
+
+
+
 
 }
